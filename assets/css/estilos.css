@@ -1,0 +1,100 @@
+/* Seletor universal - limpa as margens padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilização da Barra de Navegação */
+.bng-navbar {
+    background-color: #343a40;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.bng-navbar div {
+    display: flex;
+    align-items: center;
+}
+
+.bng-navbar img {
+    height: 50px; 
+    margin-right: 10px;
+}
+
+.bng-navbar h3 {
+    font-size: 1.5em;
+    color: #dddddd; 
+}
+
+/* Estilos para os links centrais da navegação */
+.container-navegacao {
+    text-align: center;
+    padding: 20px; 
+}
+
+.container-navegacao a {
+    font-size: 1.5em;
+    margin: 0px 50px;
+    text-decoration: none; 
+    color: #dddddd;
+}
+
+.container-navegacao a:hover {
+    color: #ffffff;
+}
+
+/* Estilos para o botão da Área Cliente */
+.nav-cliente a {
+    color: #dddddd;
+    text-decoration: none; 
+    font-size: 1.5em; 
+    padding: 10px;
+    border-radius: 5px; 
+    transition: background 0.3s;
+}
+
+.nav-cliente a:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para o Conteúdo de Texto Central */
+.container-texto-generico {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px; 
+    text-align: center; 
+}
+
+/* Estilos para o Rodapé */
+.footer-container {
+    display: flex;
+    background-color: #343a40; 
+    color: white;
+    padding: 40px 20px; 
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    padding: 10px; 
+    text-align: center;
+}
+
+.footer-section strong {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 10px;
+    color: #f8f9fa;
+}
+
+.footer-section p {
+    font-size: 1rem;
+    color: #d6d6d6;
+}
